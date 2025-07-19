@@ -1,4 +1,5 @@
-# 📊 UPI Transactions Analysis and Anolmaly Detection System
+# 📊 UPI & Banking Transaction Monitoring, Fraud Detection & Customer Spending Insights
+
 
 ## 🚀 Overview
 
