@@ -24,6 +24,6 @@ df = pd.DataFrame(records, columns=[
     'transaction_id', 'user_id', 'timestamp', 'amount',
     'payee_vpa', 'location', 'device_id', 'is_fraud'
 ])
-df.to_csv("transactions.csv", index=False)
+df.to_csv("data/transactions.csv", index=False)
 
 print(f"[INFO] Generated {rows} transactions.")
