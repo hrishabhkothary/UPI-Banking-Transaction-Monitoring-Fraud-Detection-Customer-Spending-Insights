@@ -33,25 +33,4 @@ It demonstrates **end-to-end data engineering**, **machine learning for anomaly 
 
 ---
 
-## 📂 Project Structure:
 
-upi_banking_monitoring/
-│
-├── data/
-│ ├── generate_transactions.py # Generates large dataset
-│ ├── transactions.csv # Synthetic data output
-│
-├── db/
-│ └── init_db.sql # SQL schema
-│
-├── scripts/
-│ ├── etl_pipeline.py # ETL process
-│ ├── anomaly_detection.py # Fraud detection
-│ ├── customer_insights.py # Reporting & visuals
-│
-├── tests/
-│ ├── test_etl.py # ETL tests
-│ ├── test_anomaly.py # Anomaly detection tests
-│
-├── requirements.txt # Python dependencies
-└── README.md # Project documentation
