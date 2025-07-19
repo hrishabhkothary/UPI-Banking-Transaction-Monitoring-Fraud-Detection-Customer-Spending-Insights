@@ -1,4 +1,4 @@
-# 📊 UPI & Banking Transaction Monitoring System
+# 📊 UPI Transactions Analysis and Anolmaly Detection System
 
 ## 🚀 Overview
 
@@ -18,7 +18,7 @@ It demonstrates **end-to-end data engineering**, **machine learning for anomaly 
 
 ---
 
-## 🛠️ **Tech Stack**
+## 🛠️ Tech Stack:
 
 | Layer | Tools & Libraries |
 |-------|--------------------|
@@ -33,7 +33,7 @@ It demonstrates **end-to-end data engineering**, **machine learning for anomaly 
 
 ---
 
-## 📂 **Project Structure**
+## 📂 Project Structure:
 
 upi_banking_monitoring/
 │
