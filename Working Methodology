@@ -1,0 +1,31 @@
+# Methodology:
+
+**How It Works**
+
+1. Generate Data: 
+   'generate_transactions.py' uses 'Faker' to create thousands of realistic transactions with random amounts, cities, VPA IDs, and device fingerprints.
+
+2. Initialize Database:
+   init_db.sql creates the **transactions** table and **anomaly_results** table in a clean 'upi_banking_db' MySQL database.
+
+3. ETL Pipeline:
+   - Loads the generated CSV.
+   - Drops invalid rows.
+   - Converts timestamps.
+   - Creates unique UUIDs.
+   - Loads cleaned records into MySQL.
+
+4. Anomaly Detection:
+   - Fetches data from MySQL.
+   - Runs an "Isolation Forest" to flag outliers.
+   - Stores results back in MySQL for auditing.
+
+5. Customer Insights:
+   - Shows average transaction amounts.
+   - Displays top 5 payees.
+   - Plots hourly transaction heatmaps.
+
+6. Tests:
+   - Ensure CSV is valid and not empty.
+   - Check timestamp formats.
+   - Confirm that the model output labels make sense.
