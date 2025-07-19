@@ -9,7 +9,7 @@ DB_NAME = 'upi_banking_db'
 
 engine = create_engine(f"mysql+mysqlconnector://{DB_USER}:{DB_PASSWORD}@{DB_HOST}/{DB_NAME}")
 
-df = pd.read_csv('../data/transactions.csv')
+df = pd.read_csv('data/transactions.csv')
 
 df.dropna(inplace=True)
 df['timestamp'] = pd.to_datetime(df['timestamp'])
